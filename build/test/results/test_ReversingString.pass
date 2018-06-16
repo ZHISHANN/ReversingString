@@ -1,0 +1,28 @@
+---
+:source:
+  :path: test
+  :file: test_ReversingString.c
+:successes:
+- :test: test_getStringLength_given_a_NULL_expect_0
+  :line: 12
+  :message: ''
+- :test: test_getStringLength_given_an_empty_string_expect_0
+  :line: 17
+  :message: ''
+- :test: test_getStringLength_given_a_f_string_expect_1
+  :line: 22
+  :message: ''
+- :test: test_getStringLength_given_mumbo_jumbo_string_expect_11
+  :line: 27
+  :message: ''
+- :test: test_ReversingString_given_framework_expect_krowemarf
+  :line: 32
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 5
+  :failed: 0
+  :ignored: 0
+:stdout: []
