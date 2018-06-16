@@ -18,10 +18,12 @@ int getStringLength(char *str)
 char *ReversingString(char *str)
 {
   char *ptr = str;
+  //char *ptr;
   int length = getStringLength(str);
   static char temp_str[100];
+  //ptr = str;
 
-  while (*ptr != NULL)
+  while (*ptr != '\0')
   {
     temp_str[length - 1] = *ptr;
     ptr++;
