@@ -29,24 +29,3 @@ char *ReversingString(char *str)
   }
   return temp_str;
 }
-
-/*char ReversingString(char *str)
-{
-  int i, j = 0, count;
-  char revStr[j],*revSTR;
-
-  count = getStringLength(str);
-  i = count -1;
-
-  for (j = 0;j<count;j++)
-  {
-    revStr[j] = str[i];
-    i--;
-  }
-
-  while (revStr[j] != '\0')
-  {
-    revSTR = revStr[j];
-  }
-  return revSTR;
-}*/
