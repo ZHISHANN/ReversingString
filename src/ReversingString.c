@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "ReversingString.h"
+#include <malloc.h>
 
 int getStringLength(char *str)
 {
@@ -18,16 +19,19 @@ int getStringLength(char *str)
 char *ReversingString(char *str)
 {
   char *ptr = str;
-  //char *ptr;
   int length = getStringLength(str);
-  static char temp_str[100];
-  //ptr = str;
+  char *temp,len;
+  len = length - 1;
+  temp = malloc(length + 1);
 
   while (*ptr != '\0')
   {
-    temp_str[length - 1] = *ptr;
+    temp[len] = *ptr;
     ptr++;
-    length--;
+    len--;
   }
-  return temp_str;
+  
+  temp[length] = '\0';
+  return temp;
+  free(temp);
 }

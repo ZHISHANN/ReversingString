@@ -34,3 +34,9 @@ void test_ReversingString_given_framework_expect_krowemarf(void)
   char *str = ReversingString("framework");
 	TEST_ASSERT_EQUAL_STRING ("krowemarf", str);
 }
+
+void test_ReversingString_given_12345_expect_54321(void)
+{
+  char *str = ReversingString("12345");
+	TEST_ASSERT_EQUAL_STRING ("54321", str);
+}

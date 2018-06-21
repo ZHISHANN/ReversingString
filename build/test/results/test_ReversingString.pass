@@ -18,11 +18,14 @@
 - :test: test_ReversingString_given_framework_expect_krowemarf
   :line: 32
   :message: ''
+- :test: test_ReversingString_given_12345_expect_54321
+  :line: 38
+  :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 5
-  :passed: 5
+  :total: 6
+  :passed: 6
   :failed: 0
   :ignored: 0
 :stdout: []

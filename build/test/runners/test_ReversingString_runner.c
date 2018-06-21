@@ -35,6 +35,7 @@ extern void test_getStringLength_given_an_empty_string_expect_0 (void);
 extern void test_getStringLength_given_a_f_string_expect_1 (void);
 extern void test_getStringLength_given_mumbo_jumbo_string_expect_11 (void);
 extern void test_ReversingString_given_framework_expect_krowemarf(void);
+extern void test_ReversingString_given_12345_expect_54321(void);
 
 
 /*=======Test Reset Option=====*/
@@ -55,6 +56,7 @@ int main(void)
   RUN_TEST(test_getStringLength_given_a_f_string_expect_1 , 22);
   RUN_TEST(test_getStringLength_given_mumbo_jumbo_string_expect_11 , 27);
   RUN_TEST(test_ReversingString_given_framework_expect_krowemarf, 32);
+  RUN_TEST(test_ReversingString_given_12345_expect_54321, 38);
 
   return (UnityEnd());
 }

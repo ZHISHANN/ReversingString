@@ -92,3 +92,19 @@ void test_ReversingString_given_framework_expect_krowemarf(void)
 ), (UNITY_UINT)(35));
 
 }
+
+
+
+void test_ReversingString_given_12345_expect_54321(void)
+
+{
+
+  char *str = ReversingString("12345");
+
+ UnityAssertEqualString((const char*)(("54321")), (const char*)((str)), (
+
+((void *)0)
+
+), (UNITY_UINT)(41));
+
+}
